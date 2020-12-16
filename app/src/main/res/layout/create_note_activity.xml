@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateNoteActivity">
+
+    <EditText
+        android:id="@+id/new_note_title"
+        style="@style/small"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/small_margin"
+        android:autofillHints="@null"
+        android:background="@drawable/user_form_txt_bg"
+        android:hint="@string/type_your_title_here"
+        android:inputType="text"
+        android:padding="@dimen/small_padding" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/new_note_title"
+        android:layout_margin="@dimen/small_margin"
+        android:alpha=".3"
+        android:background="@android:color/black" />
+
+    <EditText
+        android:id="@+id/new_note_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/view"
+        android:layout_margin="@dimen/small_margin"
+        android:autofillHints="@null"
+        android:background="@android:color/transparent"
+        android:hint="@string/type_your_description_here"
+        android:inputType="textMultiLine"
+        android:padding="@dimen/small_padding" />
+
+    <Button
+        android:id="@+id/new_note_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/primary_btn"
+        android:text="@string/save_notes_txt"
+        android:textColor="@android:color/white" />
+
+</RelativeLayout>

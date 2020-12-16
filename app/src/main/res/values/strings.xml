@@ -1,3 +1,17 @@
 <resources>
     <string name="app_name">Notes</string>
+    <string name="type_your_title_here">Type Your Notes Title here</string>
+    <string name="type_your_description_here">Type Notes Description Here</string>
+    <string name="save_notes_txt">Save Notes</string>
+    <string name="notes">Notes</string>
+    <string name="note_title">Note Title</string>
+    <string name="updated_time">Updated time</string>
+    <string name="app_title">Notes</string>
+    <string name="app_desc">Create Your Simple Notes</string>
+    <string name="delete">Delete</string>
+    <string name="login">Login</string>
+    <string name="email_id">email id</string>
+    <string name="password">password</string>
+    <string name="no_internet_connection">No Internet</string>
+    <string name="retry">Retry</string>
 </resources>

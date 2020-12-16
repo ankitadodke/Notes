@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="general_activity_margin">16dp</dimen>
+    <dimen name="general_activity_padding">16dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+    <dimen name="small_padding">8dp</dimen>
+    <dimen name="extra_small_margin">4dp</dimen>
+    <dimen name="card_corner">12dp</dimen>
+    <!--<dimen name="mtrl_textinput_box_stroke_width_default">3px</dimen>-->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+</resources>
